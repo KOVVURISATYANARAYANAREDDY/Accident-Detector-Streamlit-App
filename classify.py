@@ -38,14 +38,14 @@ def predict(image):
 
         return classes, False
 
-reciever = "manikantasanjay1999@gmail.com"
+reciever = <<ENTER OTHER MAIL ID>>
 #str(dt_string)
 
 def trigger(predict):
        msg = MIMEMultipart()
        message = predict + " was Detected."
-       password = "Srinivasa@123"
-       msg['From'] = "ksnr9705857@gmail.com"
+       password = <<ENTER YOUR PASSWORD>>
+       msg['From'] = <<ENTER YOUR MAIL ID>>
        msg['To'] = "manikantasanjay1999@gmail.com"
        msg['Subject'] = "Accident Detector."
        msg.attach(MIMEText(message, 'plain'))
